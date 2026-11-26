@@ -1,0 +1,1071 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>妖精动漫51漫画_妖精动漫在线漫画阅读_国漫日漫更新榜单</title>
+<meta name="description" content="妖精动漫51漫画提供妖精动漫在线漫画阅读入口，收录国漫、日漫、条漫、玄幻、校园等作品，含更新动态、分类筛选、深度解析、FAQ 与榜单，适合追更读者与漫画新用户参考。">
+<meta name="keywords" content="妖精动漫在线阅读,条漫更新,国漫榜单,玄幻漫画,漫画分类筛选">
+<style>
+:root{
+  --bg:#0d0f1a;
+  --bg-soft:#141728;
+  --panel:#1a1e33;
+  --panel-2:#212741;
+  --line:#2c3350;
+  --ink:#eef1fb;
+  --ink-2:#b9c0da;
+  --ink-3:#828ab0;
+  --brand:#8b5cf6;
+  --brand-2:#c084fc;
+  --accent:#22d3ee;
+  --accent-2:#f472b6;
+  --gold:#fbbf24;
+  --ok:#34d399;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+  --header-h:62px;
+  --notice-h:40px;
+  --gap:26px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);
+  line-height:1.75;font-size:15px;-webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+p{margin:0 0 12px}
+ul,ol{margin:0;padding-left:1.2em}
+li{margin:0 0 6px}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1330px;margin:0 auto;padding:0 20px}
+
+/* 吸顶公告条 + 页头 */
+.sticky-top{position:sticky;top:0;z-index:60}
+.notice{
+  height:var(--notice-h);background:linear-gradient(90deg,#3b1d63,#5b21b6 45%,#0e7490);
+  display:flex;align-items:center;font-size:13px;color:#f4ecff;overflow:hidden;
+}
+.notice .wrap{display:flex;align-items:center;gap:10px;width:100%}
+.notice-tag{
+  flex:none;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.28);
+  padding:1px 8px;border-radius:20px;font-size:12px;letter-spacing:.5px;
+}
+.notice-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.notice-text b{color:#fff}
+.notice-link{flex:none;margin-left:auto;font-size:12px;border-bottom:1px dashed rgba(255,255,255,.55);padding-bottom:1px}
+.site-header{
+  background:rgba(13,15,26,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);height:var(--header-h);
+}
+.header-inner{display:flex;align-items:center;gap:18px;height:var(--header-h)}
+.logo{display:flex;align-items:center;gap:9px;flex:none}
+.logo-mark{width:34px;height:34px;flex:none}
+.logo-text{font-size:18px;font-weight:800;letter-spacing:.5px;white-space:nowrap}
+.logo-text em{font-style:normal;color:var(--brand-2)}
+.nav-main{display:flex;gap:4px;flex-wrap:wrap;margin-left:6px}
+.nav-main a{
+  font-size:14px;color:var(--ink-2);padding:6px 10px;border-radius:8px;white-space:nowrap;
+}
+.nav-main a:hover{background:var(--panel-2);color:#fff}
+.search-box{margin-left:auto;display:flex;align-items:center;gap:6px;position:relative}
+.search-box input{
+  width:190px;background:var(--panel);border:1px solid var(--line);color:var(--ink);
+  border-radius:20px;padding:7px 14px;font-size:13px;outline:none;
+}
+.search-box input:focus{border-color:var(--brand);box-shadow:0 0 0 3px rgba(139,92,246,.18)}
+.search-box button{
+  background:var(--brand);color:#fff;border:0;border-radius:20px;padding:7px 14px;font-size:13px;
+}
+.search-hint{
+  position:absolute;top:calc(100% + 8px);right:0;width:290px;background:var(--panel);
+  border:1px solid var(--line);border-radius:var(--radius-sm);padding:10px 12px;font-size:13px;
+  color:var(--ink-2);box-shadow:var(--shadow);display:none;
+}
+.search-hint.show{display:block}
+.menu-btn{display:none;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 10px;font-size:13px}
+
+/* 首屏 */
+.hero{
+  position:relative;overflow:hidden;border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(900px 400px at 12% -10%,rgba(139,92,246,.35),transparent 65%),
+    radial-gradient(700px 380px at 88% 0%,rgba(34,211,238,.22),transparent 62%),
+    linear-gradient(180deg,#12152a,#0d0f1a);
+}
+.hero .wrap{padding-top:44px;padding-bottom:44px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.hero-kicker{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;color:var(--accent);letter-spacing:1px;border:1px solid rgba(34,211,238,.35);background:rgba(34,211,238,.08);padding:3px 12px;border-radius:20px;margin-bottom:16px}
+.hero h1{font-size:40px;letter-spacing:1px;margin-bottom:14px}
+.hero h1 span{background:linear-gradient(96deg,#c084fc,#22d3ee);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-desc{color:var(--ink-2);font-size:15.5px;max-width:36em;margin-bottom:20px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:10px;padding:10px 20px;font-size:14.5px;font-weight:600;border:1px solid transparent}
+.btn-primary{background:linear-gradient(120deg,var(--brand),#6d28d9);color:#fff;box-shadow:0 8px 22px rgba(109,40,217,.4)}
+.btn-primary:hover{filter:brightness(1.1)}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--ink)}
+.btn-ghost:hover{border-color:var(--brand);color:#fff}
+.hero-stats{display:flex;gap:26px;flex-wrap:wrap}
+.hero-stats div{font-size:12.5px;color:var(--ink-3)}
+.hero-stats b{display:block;font-size:20px;color:var(--ink);font-weight:800}
+.hero-art{position:relative}
+.hero-art svg{width:100%;height:auto;filter:drop-shadow(0 18px 40px rgba(0,0,0,.5))}
+.hero-badge{
+  position:absolute;bottom:6px;left:0;background:rgba(26,30,51,.92);border:1px solid var(--line);
+  border-radius:12px;padding:8px 14px;font-size:12.5px;color:var(--ink-2);backdrop-filter:blur(6px);
+}
+.hero-badge b{color:var(--gold)}
+
+/* 布局：三栏门户 */
+.layout{display:grid;grid-template-columns:178px minmax(0,1fr) 250px;gap:var(--gap);padding:34px 0 60px;align-items:start}
+.col-left,.col-right{position:sticky;top:calc(var(--notice-h) + var(--header-h) + 18px)}
+.channel-box,.side-box{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);padding:14px}
+.channel-box h2,.side-box h2{
+  font-size:13px;letter-spacing:1.5px;color:var(--ink-3);text-transform:uppercase;
+  margin-bottom:10px;font-weight:700;
+}
+.channel-list{list-style:none;padding:0;margin:0}
+.channel-list li{margin:0}
+.channel-list a{
+  display:flex;align-items:center;justify-content:space-between;gap:6px;
+  font-size:14px;color:var(--ink-2);padding:7px 9px;border-radius:8px;
+}
+.channel-list a:hover{background:var(--panel-2);color:#fff}
+.channel-list small{color:var(--ink-3);font-size:11.5px}
+.side-box + .side-box{margin-top:16px}
+.rank-list{list-style:none;padding:0;margin:0;counter-reset:rk}
+.rank-list li{counter-increment:rk;display:flex;gap:9px;padding:7px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+.rank-list li:last-child{border-bottom:0}
+.rank-list li::before{
+  content:counter(rk);flex:none;width:19px;height:19px;border-radius:5px;background:var(--panel-2);
+  color:var(--ink-3);font-size:11.5px;display:grid;place-items:center;font-weight:700;margin-top:2px;
+}
+.rank-list li:nth-child(-n+3)::before{background:linear-gradient(120deg,var(--brand),var(--accent));color:#fff}
+.rank-list a{color:var(--ink);flex:1}
+.rank-list a:hover{color:var(--brand-2)}
+.rank-list em{font-style:normal;color:var(--ink-3);font-size:11.5px;white-space:nowrap}
+.update-mini{list-style:none;padding:0;margin:0;font-size:13px}
+.update-mini li{padding:6px 0;border-bottom:1px dashed var(--line);color:var(--ink-2);display:flex;gap:6px}
+.update-mini li:last-child{border-bottom:0}
+.update-mini time{color:var(--ink-3);font-size:11.5px;flex:none}
+
+/* 板块通用 */
+.section{margin-bottom:38px;scroll-margin-top:calc(var(--notice-h) + var(--header-h) + 16px)}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.section-head h2{font-size:21px;letter-spacing:.4px;display:flex;align-items:center;gap:9px}
+.section-head h2::before{content:"";width:5px;height:20px;border-radius:3px;background:linear-gradient(180deg,var(--brand),var(--accent))}
+.section-head .sub{font-size:12.5px;color:var(--ink-3)}
+.section-head a.more{font-size:12.5px;color:var(--accent);white-space:nowrap}
+
+/* 概览 */
+.overview{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.overview p{color:var(--ink-2);font-size:14.5px}
+.overview p:last-child{margin-bottom:0}
+.overview strong{color:var(--ink)}
+
+/* 卡片网格 */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));gap:16px}
+.card{
+  background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .18s,border-color .18s;
+}
+.card:hover{transform:translateY(-3px);border-color:rgba(139,92,246,.6)}
+.card-cover{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--panel-2)}
+.card-cover img{width:100%;height:100%;object-fit:cover}
+.card-cover .tag-float{
+  position:absolute;top:8px;left:8px;background:rgba(13,15,26,.82);border:1px solid var(--line);
+  color:var(--accent);font-size:11.5px;padding:2px 8px;border-radius:20px;backdrop-filter:blur(4px);
+}
+.card-body{padding:12px 13px 14px;display:flex;flex-direction:column;gap:7px;flex:1}
+.card-body h3{font-size:15.5px;line-height:1.45}
+.card-body h3 a:hover{color:var(--brand-2)}
+.card-desc{font-size:13px;color:var(--ink-2);line-height:1.65;flex:1}
+.tag-row{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:11.5px;color:var(--ink-3);background:var(--panel-2);border:1px solid var(--line);padding:1px 7px;border-radius:5px}
+.card-meta{display:flex;justify-content:space-between;align-items:center;font-size:11.5px;color:var(--ink-3);border-top:1px dashed var(--line);padding-top:8px}
+.card-meta b{color:var(--gold);font-weight:700}
+
+/* 动态列表 */
+.timeline-list{list-style:none;padding:0;margin:0;border-left:2px solid var(--line);margin-left:5px}
+.timeline-list li{position:relative;padding:0 0 16px 20px}
+.timeline-list li::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--brand);border:2px solid var(--bg)}
+.timeline-list li:last-child{padding-bottom:0}
+.tl-title{font-size:14.5px;font-weight:600;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.tl-title time{font-size:11.5px;color:var(--accent);font-weight:400;background:rgba(34,211,238,.1);border-radius:5px;padding:1px 7px}
+.tl-desc{font-size:13px;color:var(--ink-2);margin-top:3px}
+
+/* 分类入口 */
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.cat-item{
+  background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:13px 14px;transition:border-color .18s,background .18s;
+}
+.cat-item:hover{border-color:var(--brand);background:var(--panel)}
+.cat-item b{font-size:14.5px;display:block;margin-bottom:2px}
+.cat-item span{font-size:12px;color:var(--ink-3);line-height:1.5}
+.cat-item em{font-style:normal;float:right;font-size:11.5px;color:var(--accent)}
+
+/* 深度解析 */
+.article{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);padding:26px 28px}
+.article h3{font-size:17.5px;margin:24px 0 10px;color:var(--ink);padding-left:11px;border-left:3px solid var(--brand)}
+.article h3:first-child{margin-top:0}
+.article p{color:var(--ink-2);font-size:14.5px}
+.article ul{color:var(--ink-2);font-size:14.5px}
+.article li{margin-bottom:7px}
+.article strong{color:#fff}
+.compare-table{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0 6px}
+.compare-table th,.compare-table td{border:1px solid var(--line);padding:8px 11px;text-align:left;color:var(--ink-2)}
+.compare-table th{background:var(--panel-2);color:var(--ink);font-weight:600;font-size:13px}
+
+/* 指南步骤 */
+.steps{display:grid;gap:12px;counter-reset:st}
+.step{
+  background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:14px 16px 14px 56px;position:relative;
+}
+.step::before{
+  counter-increment:st;content:counter(st);position:absolute;left:16px;top:14px;
+  width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-weight:800;font-size:13px;
+  background:linear-gradient(130deg,var(--brand),var(--accent));color:#fff;
+}
+.step b{display:block;font-size:14.5px;margin-bottom:2px}
+.step span{font-size:13px;color:var(--ink-2)}
+
+/* FAQ */
+.faq details{
+  background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:12px 16px;margin-bottom:10px;
+}
+.faq details[open]{border-color:rgba(139,92,246,.55)}
+.faq summary{
+  cursor:pointer;font-size:14.5px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:baseline;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--brand-2);font-size:18px;font-weight:400;line-height:1}
+.faq details[open] summary::after{content:"−"}
+.faq p{font-size:13.5px;color:var(--ink-2);margin:10px 0 0;padding-top:10px;border-top:1px dashed var(--line)}
+
+/* 评论 */
+.comment-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:12px}
+.comment{
+  background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius-sm);padding:12px 14px;
+}
+.comment-top{display:flex;align-items:center;gap:9px;margin-bottom:6px}
+.avatar{width:26px;height:26px;border-radius:50%;flex:none;display:grid;place-items:center;font-size:12px;font-weight:700;color:#fff}
+.comment-top b{font-size:13px}
+.comment-top time{margin-left:auto;font-size:11px;color:var(--ink-3)}
+.comment p{font-size:13px;color:var(--ink-2);margin:0;line-height:1.68}
+.comment .ref{color:var(--accent);font-size:11.5px;display:block;margin-top:5px}
+
+/* 资讯 */
+.news-list{display:grid;gap:12px}
+.news-item{
+  display:grid;grid-template-columns:132px minmax(0,1fr);gap:14px;background:var(--bg-soft);
+  border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden;
+}
+.news-item img{width:132px;height:100%;min-height:88px;object-fit:cover}
+.news-body{padding:11px 14px 12px 0}
+.news-body h3{font-size:14.5px;margin-bottom:4px}
+.news-body h3 a:hover{color:var(--brand-2)}
+.news-body time{font-size:11.5px;color:var(--ink-3);margin-right:8px}
+.news-body p{font-size:13px;color:var(--ink-2);margin:5px 0 0}
+
+/* 相关推荐标签索引 */
+.reco-tags{display:flex;flex-wrap:wrap;gap:9px}
+.reco-tags a{
+  font-size:13.5px;background:var(--bg-soft);border:1px solid var(--line);border-radius:20px;
+  padding:6px 15px;color:var(--ink-2);transition:all .16s;
+}
+.reco-tags a:hover{border-color:var(--accent);color:#fff;background:rgba(34,211,238,.1)}
+.reco-tags a b{color:var(--accent);font-weight:600;margin-right:4px}
+
+/* 榜单面板 */
+.board-panel{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.board-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.board-col h4{font-size:14px;margin-bottom:8px;color:var(--brand-2);letter-spacing:.5px}
+.board-col ol{padding-left:1.4em;font-size:13.5px;color:var(--ink-2);margin:0}
+.board-col li{margin-bottom:6px}
+.board-col li b{color:var(--ink)}
+.board-col li em{font-style:normal;color:var(--ink-3);font-size:11.5px;margin-left:5px}
+
+/* 页尾 */
+.site-footer{background:#090b13;border-top:1px solid var(--line);padding:38px 0 26px;margin-top:20px}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:28px}
+.footer-brand .logo{margin-bottom:10px}
+.footer-brand p{font-size:13px;color:var(--ink-3);max-width:26em}
+.footer-col h4{font-size:13px;color:var(--ink-2);margin-bottom:10px;letter-spacing:1px}
+.footer-col ul{list-style:none;padding:0;margin:0}
+.footer-col li{margin-bottom:7px}
+.footer-col a{font-size:13px;color:var(--ink-3)}
+.footer-col a:hover{color:var(--brand-2)}
+.footer-note{font-size:12.5px;color:var(--ink-3);line-height:1.8}
+.footer-bottom{
+  margin-top:26px;padding-top:16px;border-top:1px solid var(--line);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--ink-3);
+}
+
+/* 响应式 */
+@media (max-width:1080px){
+  .layout{grid-template-columns:minmax(0,1fr) 250px}
+  .col-left{display:none}
+  .hero .wrap{grid-template-columns:1fr;gap:26px}
+  .hero-art{max-width:440px}
+}
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr}
+  .col-right{position:static;order:2}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .nav-main{display:none}
+  .menu-btn{display:inline-block}
+  .nav-main.open{
+    display:flex;position:absolute;top:calc(var(--notice-h) + var(--header-h));left:0;right:0;
+    background:var(--bg-soft);border-bottom:1px solid var(--line);padding:10px 20px;flex-direction:column;gap:2px;z-index:59;
+  }
+  .nav-main.open a{padding:9px 6px}
+  .header-inner{position:relative}
+  .search-box input{width:130px}
+}
+@media (max-width:740px){
+  .hero h1{font-size:30px}
+  .hero .wrap{padding-top:30px;padding-bottom:32px}
+  .search-box{display:none}
+  .card-grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+  .article{padding:20px 16px}
+  .news-item{grid-template-columns:96px minmax(0,1fr)}
+  .news-item img{width:96px}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-stats{gap:18px}
+  .compare-table{font-size:12.5px}
+  .compare-table th,.compare-table td{padding:6px 8px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<div class="sticky-top">
+  <div class="notice">
+    <div class="wrap">
+      <span class="notice-tag">更新</span>
+      <span class="notice-text"><b>11 月 25 日</b> 新增 14 话：玄幻《九霄剑主》第 92 话、校园《夏日回声》第 31 话上线；本周榜单已刷新</span>
+      <a class="notice-link" href="/#updates">查看全部</a>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="/#top" aria-label="妖精动漫51漫画首页">
+        <svg class="logo-mark" viewBox="0 0 40 40" role="img" aria-label="妖精动漫51漫画标识">
+          <defs>
+            <linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#c084fc"/><stop offset="1" stop-color="#22d3ee"/>
+            </linearGradient>
+          </defs>
+          <path d="M20 3 L34 10.5 V26 L20 36 L6 26 V10.5 Z" fill="none" stroke="url(#lg1)" stroke-width="2.2"/>
+          <path d="M14 15c0-3 2.6-5 6-5s6 2 6 5-2.6 4.6-6 4.6-6-1.6-6-4.6z" fill="url(#lg1)" opacity=".9"/>
+          <circle cx="16.6" cy="14.6" r="1.5" fill="#0d0f1a"/>
+          <circle cx="23.4" cy="14.6" r="1.5" fill="#0d0f1a"/>
+          <path d="M15 23c2 2.4 8 2.4 10 0" stroke="#c084fc" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text">妖精动漫<em>51漫画</em></span>
+      </a>
+      <nav class="nav-main" id="navMain" aria-label="主导航">
+        <a href="/#overview">平台概览</a>
+        <a href="/#picks">精选推荐</a>
+        <a href="/#updates">更新动态</a>
+        <a href="/#categories">分类</a>
+        <a href="/#insight">深度解析</a>
+        <a href="/#guide">阅读指南</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#board">榜单</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navMain">频道</button>
+      <form class="search-box" id="searchForm" role="search" onsubmit="return false;">
+        <label for="siteSearch" style="position:absolute;left:-9999px">站内搜索</label>
+        <input id="siteSearch" type="search" placeholder="搜索作品名 / 类型" autocomplete="off">
+        <button type="button" id="searchBtn">搜索</button>
+        <div class="search-hint" id="searchHint" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="hero-kicker">国漫 · 日漫 · 条漫 · 每周更新榜单</span>
+        <h1>妖精动漫<span>51漫画</span></h1>
+        <p class="hero-desc">一个以玄幻、校园、悬疑、日常恋爱四条主线为主的在线漫画阅读站。收录连载与完结作品，提供分类筛选、更新记录、单话追更与读者评论，适合按类型找书的老读者，也适合第一次接触条漫的新用户。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/#picks">进入精选书架</a>
+          <a class="btn btn-ghost" href="/#updates">今日更新 14 话</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>2,860+</b>在架作品</div>
+          <div><b>14</b>今日更新话数</div>
+          <div><b>9</b>一级分类</div>
+          <div><b>11-25</b>榜单刷新</div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 420 320" role="img" aria-label="漫画分镜式首屏插画，展示条漫阅读界面与妖灵角色">
+          <defs>
+            <linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/>
+            </linearGradient>
+            <linearGradient id="hg2" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#c084fc"/>
+            </linearGradient>
+          </defs>
+          <rect x="8" y="14" width="270" height="180" rx="14" fill="#1a1e33" stroke="#2c3350"/>
+          <rect x="24" y="30" width="238" height="112" rx="8" fill="#12152a"/>
+          <circle cx="150" cy="86" r="36" fill="url(#hg1)" opacity=".35"/>
+          <path d="M116 100c8-16 26-24 34-24s26 8 34 24" stroke="url(#hg2)" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <circle cx="140" cy="80" r="4" fill="#c084fc"/><circle cx="162" cy="80" r="4" fill="#c084fc"/>
+          <path d="M132 48c4-12 14-20 18-20s14 8 18 20" stroke="url(#hg1)" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <rect x="24" y="152" width="150" height="8" rx="4" fill="#2c3350"/>
+          <rect x="24" y="168" width="104" height="8" rx="4" fill="#2c3350"/>
+          <rect x="196" y="152" width="66" height="24" rx="6" fill="url(#hg1)" opacity=".8"/>
+          <rect x="298" y="48" width="114" height="146" rx="14" fill="#1a1e33" stroke="#2c3350"/>
+          <rect x="312" y="62" width="86" height="80" rx="8" fill="#12152a"/>
+          <path d="M330 118l14-18 12 14 10-10 14 20" stroke="#22d3ee" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="312" y="152" width="60" height="7" rx="3.5" fill="#2c3350"/>
+          <rect x="312" y="166" width="42" height="7" rx="3.5" fill="#2c3350"/>
+          <rect x="312" y="180" width="52" height="7" rx="3.5" fill="#2c3350"/>
+          <rect x="8" y="212" width="404" height="92" rx="14" fill="#141728" stroke="#2c3350"/>
+          <rect x="26" y="230" width="76" height="56" rx="8" fill="#1a1e33"/>
+          <rect x="116" y="230" width="76" height="56" rx="8" fill="#1a1e33"/>
+          <rect x="206" y="230" width="76" height="56" rx="8" fill="#1a1e33"/>
+          <rect x="296" y="230" width="98" height="56" rx="8" fill="#1a1e33"/>
+          <path d="M40 272l12-16 10 12 8-8 12 18" stroke="#8b5cf6" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          <path d="M130 268c6-10 18-14 24-14s18 4 24 14" stroke="#f472b6" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          <circle cx="154" cy="256" r="10" fill="none" stroke="#22d3ee" stroke-width="2.4"/>
+          <path d="M222 262h44M222 274h28" stroke="#2c3350" stroke-width="4" stroke-linecap="round"/>
+          <path d="M312 258h66M312 270h44" stroke="#2c3350" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <div class="hero-badge">本话更新 <b>11-25 09:30</b> · 《九霄剑主》第 92 话</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap layout">
+    <!-- 左频道索引 -->
+    <aside class="col-left" aria-label="频道索引">
+      <div class="channel-box">
+        <h2>频道索引</h2>
+        <ul class="channel-list">
+          <li><a href="/#categories">玄幻修真 <small>486</small></a></li>
+          <li><a href="/#categories">校园青春 <small>312</small></a></li>
+          <li><a href="/#categories">悬疑推理 <small>274</small></a></li>
+          <li><a href="/#categories">日常恋爱 <small>398</small></a></li>
+          <li><a href="/#categories">热血战斗 <small>356</small></a></li>
+          <li><a href="/#categories">古风宫廷 <small>205</small></a></li>
+          <li><a href="/#categories">科幻末世 <small>168</small></a></li>
+          <li><a href="/#categories">搞笑四格 <small>241</small></a></li>
+          <li><a href="/#categories">完结精选 <small>520</small></a></li>
+          <li><a href="/#board">追更榜单 <small>11-25</small></a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- 中主内容 -->
+    <div class="col-main">
+
+      <section class="section" id="overview">
+        <div class="section-head">
+          <h2>妖精动漫51漫画平台概览</h2>
+          <span class="sub">在架 2,860 部 · 连载 1,940 部</span>
+        </div>
+        <div class="overview">
+          <p>妖精动漫51漫画以<strong>条漫阅读</strong>为主轴，作品按题材分成九条主线：玄幻修真、校园青春、悬疑推理、日常恋爱、热血战斗、古风宫廷、科幻末世、搞笑四格与完结精选。玄幻线占比最高，长线连载居多，单话约 30—60 格，适合每晚追一段；校园与日常恋爱线节奏轻，多为一周三更，适合通勤碎片阅读；悬疑推理线普遍采用单元案件结构，每 6—10 话收束一个案子，适合一次性看完整段。</p>
+          <p>当前值得关注的具体方向有三类。其一是<strong>长线玄幻</strong>：《九霄剑主》《万灵归墟》《赤霄问道录》都在百话以上，世界观已经铺开，进入主线冲突阶段，追更时最好从第 60 话左右的分卷起点切入。其二是<strong>短篇完结合集</strong>：完结精选里《夏日回声》《旧巷照相馆》《第七号站台》都能在 3 小时内读完，适合先建立对画风和叙事的判断，再决定是否投入长连载。其三是<strong>新上架作品</strong>：11 月新开的《雾港档案》《星海拾荒者》目前各更新到 8—12 话，前期设定清晰，是低门槛的试读选择。</p>
+          <p>阅读节奏上，本平台作品区分「周更」「双周更」「月更」三种更新频率，卡片上会直接标明。周更作品追更压力小，月更作品适合攒够一卷再看。<strong>单话阅读时长</strong>一般 4—8 分钟，长线玄幻的章节页数偏多，日常恋爱与搞笑四格偏少。若只想快速判断一部作品是否合口味，建议先看第 1 话与最新一话，前者看设定与画风，后者看叙事成熟度。</p>
+          <p>另外，站内作品普遍带类型标签与读者评分，评分集中在 7.5—9.4 区间。评分 8.5 以上的作品通常分镜稳定、更新不断档；评分在 7.8 左右的多为新人作品，画风尚在成型期，但设定往往更有实验性。读者可结合更新频率、话数体量与评分三项一起判断，避免只看单一指标。</p>
+        </div>
+      </section>
+
+      <section class="section" id="picks">
+        <div class="section-head">
+          <h2>精选作品推荐</h2>
+          <span class="sub">编辑整理 · 11 月 25 日更新</span>
+          <a class="more" href="/#board">看追更榜 →</a>
+        </div>
+        <div class="card-grid" id="cardGrid">
+          <article class="card" data-name="九霄剑主" data-cat="玄幻修真">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-jiuxiao01/400/300" width="400" height="300" loading="lazy" alt="九霄剑主玄幻修真漫画封面">
+              <span class="tag-float">玄幻修真</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">九霄剑主</a></h3>
+              <p class="card-desc">主角以断剑入道，宗门倾覆后重走九霄。第 92 话揭开剑冢封印，配角线开始收束，是长篇玄幻里少见的师徒双线并进结构。</p>
+              <div class="tag-row"><span class="tag">长篇连载</span><span class="tag">宗门流</span><span class="tag">周更</span></div>
+              <div class="card-meta"><span>更新至 92 话</span><b>9.1 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-name="夏日回声" data-cat="校园青春">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-xiari02/400/300" width="400" height="300" loading="lazy" alt="夏日回声校园青春漫画封面">
+              <span class="tag-float">校园青春</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">夏日回声</a></h3>
+              <p class="card-desc">海边小镇的广播社故事，围绕一段旧录音展开。第 31 话进入毕业季，画风干净，情绪节奏比同类校园作更慢，适合睡前读。</p>
+              <div class="tag-row"><span class="tag">治愈</span><span class="tag">广播社</span><span class="tag">双周更</span></div>
+              <div class="card-meta"><span>更新至 31 话</span><b>8.9 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-name="雾港档案" data-cat="悬疑推理">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-wugang03/400/300" width="400" height="300" loading="lazy" alt="雾港档案悬疑推理漫画封面">
+              <span class="tag-float">悬疑推理</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">雾港档案</a></h3>
+              <p class="card-desc">11 月新上架的单元案件作，每 8 话收束一个案子。第 12 话收尾「灯塔失踪案」，线索铺得密但不乱，适合推理入门读者。</p>
+              <div class="tag-row"><span class="tag">新作</span><span class="tag">单元案件</span><span class="tag">周更</span></div>
+              <div class="card-meta"><span>更新至 12 话</span><b>8.7 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-name="万灵归墟" data-cat="玄幻修真">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-wanling04/400/300" width="400" height="300" loading="lazy" alt="万灵归墟玄幻修真漫画封面">
+              <span class="tag-float">玄幻修真</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">万灵归墟</a></h3>
+              <p class="card-desc">以妖灵契约为主线，设定偏厚重。第 118 话开启归墟篇，战斗分镜密度明显提升，世界观资料在章节尾页附有简表。</p>
+              <div class="tag-row"><span class="tag">妖灵设定</span><span class="tag">长篇</span><span class="tag">月更</span></div>
+              <div class="card-meta"><span>更新至 118 话</span><b>8.8 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-name="旧巷照相馆" data-cat="日常恋爱">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-jiuxiang05/400/300" width="400" height="300" loading="lazy" alt="旧巷照相馆日常恋爱漫画封面">
+              <span class="tag-float">日常恋爱</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">旧巷照相馆</a></h3>
+              <p class="card-desc">已完结的短篇合集，24 话讲一对旧友重逢后重开照相馆。每话一个客人的故事，情感克制，适合一次读完。</p>
+              <div class="tag-row"><span class="tag">完结</span><span class="tag">短篇</span><span class="tag">治愈</span></div>
+              <div class="card-meta"><span>全 24 话完结</span><b>9.2 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-name="赤霄问道录" data-cat="热血战斗">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-chixiao06/400/300" width="400" height="300" loading="lazy" alt="赤霄问道录热血战斗漫画封面">
+              <span class="tag-float">热血战斗</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">赤霄问道录</a></h3>
+              <p class="card-desc">擂台赛结构的热血作，一场比试跨 5—7 话。第 76 话进入四强战，动作分镜连贯，适合喜欢连续战斗场面的读者。</p>
+              <div class="tag-row"><span class="tag">擂台赛</span><span class="tag">双周更</span><span class="tag">少年向</span></div>
+              <div class="card-meta"><span>更新至 76 话</span><b>8.6 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-name="第七号站台" data-cat="科幻末世">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-zhantai07/400/300" width="400" height="300" loading="lazy" alt="第七号站台科幻末世漫画封面">
+              <span class="tag-float">科幻末世</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">第七号站台</a></h3>
+              <p class="card-desc">末日地铁站内的群像生存记，全 32 话已完结。设定紧凑，前 10 话就交代完世界观，适合想快速看完一个完整故事的读者。</p>
+              <div class="tag-row"><span class="tag">完结</span><span class="tag">群像</span><span class="tag">末世</span></div>
+              <div class="card-meta"><span>全 32 话完结</span><b>8.9 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-name="星海拾荒者" data-cat="科幻末世">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-xinghai08/400/300" width="400" height="300" loading="lazy" alt="星海拾荒者科幻末世漫画封面">
+              <span class="tag-float">科幻末世</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">星海拾荒者</a></h3>
+              <p class="card-desc">11 月新开作品，讲拾荒船队在废弃轨道站里的日常。第 8 话首次出现主线线索，设定轻科幻，画风偏冷色调。</p>
+              <div class="tag-row"><span class="tag">新作</span><span class="tag">拾荒设定</span><span class="tag">周更</span></div>
+              <div class="card-meta"><span>更新至 8 话</span><b>8.3 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-name="古槐记" data-cat="古风宫廷">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-guhuai09/400/300" width="400" height="300" loading="lazy" alt="古槐记古风宫廷漫画封面">
+              <span class="tag-float">古风宫廷</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">古槐记</a></h3>
+              <p class="card-desc">宫廷权谋题材，人物关系图在每卷末附页。第 54 话完成一次朝局反转，节奏偏慢但伏笔回收完整，适合喜欢细读的读者。</p>
+              <div class="tag-row"><span class="tag">权谋</span><span class="tag">长篇</span><span class="tag">双周更</span></div>
+              <div class="card-meta"><span>更新至 54 话</span><b>8.5 分</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-name="周三不加班" data-cat="搞笑四格">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/yaojing-zhousan10/400/300" width="400" height="300" loading="lazy" alt="周三不加班搞笑四格漫画封面">
+              <span class="tag-float">搞笑四格</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="/#picks">周三不加班</a></h3>
+              <p class="card-desc">办公室题材四格，每话一个独立笑点，不追主线也能读。已更新 140 话，适合午休时随手翻两话。</p>
+              <div class="tag-row"><span class="tag">四格</span><span class="tag">职场</span><span class="tag">周更</span></div>
+              <div class="card-meta"><span>更新至 140 话</span><b>8.4 分</b></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="updates">
+        <div class="section-head">
+          <h2>最新更新与追更动态</h2>
+          <span class="sub">截至 2026-11-25</span>
+        </div>
+        <ul class="timeline-list">
+          <li>
+            <div class="tl-title"><time>今天 09:30</time>九霄剑主 · 第 92 话上线</div>
+            <div class="tl-desc">剑冢封印被破，主角与师父的旧约浮出水面，本节开始回收第 40 话埋下的线索。</div>
+          </li>
+          <li>
+            <div class="tl-title"><time>今天 08:10</time>夏日回声 · 第 31 话上线</div>
+            <div class="tl-desc">广播社完成最后一次校园放送，毕业季章节进入尾声，番外将于 12 月初更新。</div>
+          </li>
+          <li>
+            <div class="tl-title"><time>昨天 21:40</time>雾港档案 · 第 12 话完结「灯塔失踪案」</div>
+            <div class="tl-desc">单元案件收尾，真凶在第 11 话已露端倪，本话补充了动机细节。</div>
+          </li>
+          <li>
+            <div class="tl-title"><time>昨天 19:05</time>赤霄问道录 · 第 76 话上线</div>
+            <div class="tl-desc">四强战抽签结果公布，主角对手确定为同门师兄，下一话开始正式交手。</div>
+          </li>
+          <li>
+            <div class="tl-title"><time>11 月 23 日</time>星海拾荒者 · 第 8 话上线</div>
+            <div class="tl-desc">废弃轨道站出现异常信号，主线首次推进，新角色「维修官」登场。</div>
+          </li>
+          <li>
+            <div class="tl-title"><time>11 月 22 日</time>万灵归墟 · 第 118 话上线</div>
+            <div class="tl-desc">归墟篇开场，妖灵契约体系新增两条规则，卷末附世界观简表。</div>
+          </li>
+          <li>
+            <div class="tl-title"><time>11 月 20 日</time>古槐记 · 第 54 话上线</div>
+            <div class="tl-desc">朝局反转完成，三位配角的立场重新洗牌，卷末人物关系图已同步更新。</div>
+          </li>
+          <li>
+            <div class="tl-title"><time>11 月 18 日</time>周三不加班 · 第 140 话上线</div>
+            <div class="tl-desc">独立四格回归日常线，本话以年终总结会为主题，无主线关联。</div>
+          </li>
+          <li>
+            <div class="tl-title"><time>11 月 15 日</time>第七号站台 · 番外篇上线</div>
+            <div class="tl-desc">完结后追加 3 话番外，补完站台管理人视角的前史，可独立阅读。</div>
+          </li>
+          <li>
+            <div class="tl-title"><time>11 月 12 日</time>旧巷照相馆 · 电子合集上架</div>
+            <div class="tl-desc">全 24 话合并为三卷合集，新增作者后记与分镜草图页。</div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="section-head">
+          <h2>按类型找作品</h2>
+          <span class="sub">九条主线分类</span>
+        </div>
+        <div class="cat-grid">
+          <a class="cat-item" href="/#picks"><em>486</em><b>玄幻修真</b><span>宗门、剑修、妖灵契约，长线连载为主</span></a>
+          <a class="cat-item" href="/#picks"><em>312</em><b>校园青春</b><span>社团、毕业季、成长群像，节奏轻</span></a>
+          <a class="cat-item" href="/#picks"><em>274</em><b>悬疑推理</b><span>单元案件、线索推理，6—10 话一案</span></a>
+          <a class="cat-item" href="/#picks"><em>398</em><b>日常恋爱</b><span>都市、治愈、慢热关系线</span></a>
+          <a class="cat-item" href="/#picks"><em>356</em><b>热血战斗</b><span>擂台赛、少年向、连续动作分镜</span></a>
+          <a class="cat-item" href="/#picks"><em>205</em><b>古风宫廷</b><span>权谋、朝局反转、人物关系图</span></a>
+          <a class="cat-item" href="/#picks"><em>168</em><b>科幻末世</b><span>末日生存、轻科幻、群像叙事</span></a>
+          <a class="cat-item" href="/#picks"><em>241</em><b>搞笑四格</b><span>独立笑点、职场与日常题材</span></a>
+          <a class="cat-item" href="/#picks"><em>520</em><b>完结精选</b><span>可一次读完的完整故事合集</span></a>
+        </div>
+      </section>
+
+      <section class="section" id="insight">
+        <div class="section-head">
+          <h2>深度解析：类型差异与追更判断</h2>
+          <span class="sub">约 800 字</span>
+        </div>
+        <div class="article">
+          <h3>长篇玄幻与短篇完结：两种投入方式</h3>
+          <p>在妖精动漫51漫画的玄幻线里，作品普遍在 80 话以上，单话 40—60 格。<strong>《九霄剑主》</strong>与<strong>《万灵归墟》</strong>代表两种不同写法：前者以师徒双线推进，每 20 话左右设置一次宗门冲突，读者需要记住较多人物关系；后者以妖灵契约为核心，设定厚重，但每卷末附有世界观简表，追更时不必反复回翻。判断自己适合哪一类，可以先看第 1 话的信息密度——若开场三页内出现五个以上专有名词，说明设定门槛偏高，建议先读分卷梗概再进入正文。</p>
+          <p>相比之下，完结精选里的<strong>《旧巷照相馆》</strong>与<strong>《第七号站台》</strong>更接近短篇阅读体验。前者 24 话、后者 32 话，都能在 3 小时内读完，叙事完整、伏笔收束明确。对刚接触条漫的读者，先读一部完结作品通常比直接进入百话连载更省力，也能更快判断自己偏好的画风与叙事密度。</p>
+
+          <h3>更新频率决定追更成本</h3>
+          <p>平台作品分为周更、双周更、月更三类，卡片与详情页都会标注。频率并不直接等于质量，但会明显影响追更体验：</p>
+          <ul>
+            <li><strong>周更</strong>：单话推进有限，适合固定时间追，如《九霄剑主》《雾港档案》。</li>
+            <li><strong>双周更</strong>：每话信息量通常更大，如《夏日回声》《赤霄问道录》，适合攒两话一起看。</li>
+            <li><strong>月更</strong>：单话页数多，世界观铺陈细，如《万灵归墟》，适合按卷阅读。</li>
+          </ul>
+          <p>如果一部作品连续三个月未更新，站内会在卡片上标记「暂停」。此时更合理的做法是先看已有话数是否形成完整段落，再决定是否继续等待。</p>
+
+          <h3>评分之外：三个更实用的判断维度</h3>
+          <p>站内评分集中在 7.5—9.4 区间，单看分数容易误判。更实用的做法是结合以下三项：</p>
+          <table class="compare-table">
+            <thead>
+              <tr><th>维度</th><th>怎么看</th><th>参考示例</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>分镜稳定性</td><td>随机翻看第 10、30、50 话，看格数是否忽多忽少</td><td>《赤霄问道录》战斗段格数稳定</td></tr>
+              <tr><td>伏笔回收率</td><td>看单元案件或分卷是否有明确收束</td><td>《雾港档案》每 8 话一案</td></tr>
+              <tr><td>画风一致性</td><td>对比早期与最新话的人物比例</td><td>《夏日回声》全程画风统一</td></tr>
+            </tbody>
+          </table>
+
+          <h3>悬疑推理与日常恋爱的阅读顺序差异</h3>
+          <p>悬疑线必须按话序阅读，因为线索往往藏在前后呼应里。《雾港档案》第 11 话出现的物证，实际在第 6 话已有铺垫，跳读会直接损失推理乐趣。日常恋爱与搞笑四格则相反，例如《周三不加班》每话独立笑点，任意顺序阅读都不影响理解；《旧巷照相馆》虽有一条主线，但每位客人的故事可以单看，适合按兴趣挑读。</p>
+          <p>总结来说，<strong>长篇玄幻看设定门槛，悬疑推理看线索密度，日常与四格看情绪节奏</strong>。把这三点与更新频率结合，基本可以判断一部作品是否值得长期投入时间。</p>
+        </div>
+      </section>
+
+      <section class="section" id="guide">
+        <div class="section-head">
+          <h2>阅读路径建议</h2>
+          <span class="sub">从试读到长期追更</span>
+        </div>
+        <div class="steps">
+          <div class="step"><b>先读一部完结短篇建立手感</b><span>推荐《旧巷照相馆》或《第七号站台》，3 小时内读完，能快速判断自己喜好的画风与叙事密度。</span></div>
+          <div class="step"><b>再挑一条主线进入周更连载</b><span>玄幻看《九霄剑主》，悬疑看《雾港档案》。周更作品单话推进有限，建议固定一个时间段追。</span></div>
+          <div class="step"><b>用最新一话反查叙事成熟度</b><span>第 1 话看设定，最新一话看作者当下的叙事水平。两话风格差距大的作品，通常处于转型期。</span></div>
+          <div class="step"><b>按更新频率安排攒读节奏</b><span>双周更与月更作品更适合攒两到三话一起读，避免单话信息量不足带来的断感。</span></div>
+          <div class="step"><b>关注卷末附页与关系图</b><span>《万灵归墟》《古槐记》在卷末附设定简表与人物关系图，能显著降低长篇的阅读门槛。</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="section-head">
+          <h2>常见问答</h2>
+          <span class="sub">围绕作品与类型</span>
+        </div>
+        <div class="faq">
+          <details open>
+            <summary>妖精动漫51漫画里的玄幻作品一般多久更新一次？</summary>
+            <p>以周更为主，少数为双周更或月更。例如《九霄剑主》每周更新一话，《万灵归墟》为月更，单话页数更多。作品卡片上会直接标注更新频率，追更前可以先确认。</p>
+          </details>
+          <details>
+            <summary>条漫和传统页漫在阅读体验上有什么区别？</summary>
+            <p>条漫以纵向滚动为主，单话格数多、分镜偏连续，适合手机阅读；传统页漫按页排版，跨页构图更多。平台内绝大多数作品为条漫，卷末附页类内容更接近页漫的排版方式。</p>
+          </details>
+          <details>
+            <summary>第一次接触这类作品，从哪一部开始看比较好？</summary>
+            <p>建议从完结短篇入手，如《旧巷照相馆》（24 话）或《第七号站台》（32 话），能在 3 小时内读完一个完整故事。确认偏好后再进入百话以上的长篇连载，投入更稳妥。</p>
+          </details>
+          <details>
+            <summary>《雾港档案》和《古槐记》都属于悬疑吗，怎么区分？</summary>
+            <p>《雾港档案》是单元案件结构的现代悬疑，每 8 话收束一案；《古槐记》属于古风宫廷权谋，悬念来自朝局与人物立场变化。前者重线索推理，后者重关系与伏笔回收，阅读节奏差异明显。</p>
+          </details>
+          <details>
+            <summary>玄幻类作品的评判标准通常是什么？</summary>
+            <p>常见维度包括设定自洽度、伏笔回收率、战斗分镜稳定性和更新连续性。以《九霄剑主》为例，宗门冲突每 20 话左右一次，线索回收较完整；《赤霄问道录》则以擂台赛结构保证战斗段密度。</p>
+          </details>
+          <details>
+            <summary>评分 8 分左右的作品值得看吗？</summary>
+            <p>值得，但要区分原因。7.8—8.3 区间的作品多为新人作或画风成型期作品，设定往往更有实验性，如《星海拾荒者》前 8 话的世界观铺陈就较新颖。若更看重叙事完整度，可优先选择 8.5 分以上且已完结的作品。</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section" id="comments">
+        <div class="section-head">
+          <h2>读者评论</h2>
+          <span class="sub">近 30 天 · 16 条</span>
+        </div>
+        <div class="comment-grid">
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#8b5cf6">岚</span><b>岚间拾句</b><time>11-25</time></div><p>九霄剑主第 92 话把剑冢那条线收了，师父的旧约终于说清楚，前面四十话的伏笔没白等。</p><span class="ref">关联：九霄剑主</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#22d3ee">阿</span><b>阿澈不吃香菜</b><time>11-25</time></div><p>夏日回声毕业季这段节奏比前面慢，但广播社最后一次放送那几格画得真好，值回追更时间。</p><span class="ref">关联：夏日回声</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#f472b6">雾</span><b>雾港夜航</b><time>11-24</time></div><p>灯塔失踪案收得干净，第 11 话那个物证其实第 6 话就出现了，回头翻了一遍才反应过来。</p><span class="ref">关联：雾港档案</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#fbbf24">半</span><b>半卷闲书</b><time>11-24</time></div><p>万灵归墟月更确实慢，但每卷末的设定简表帮了大忙，不然妖灵契约那套规则真记不住。</p><span class="ref">关联：万灵归墟</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#34d399">旧</span><b>旧巷口的风</b><time>11-23</time></div><p>旧巷照相馆一口气看完，24 话不长，每个客人的故事都留了余味，适合周末下午读。</p><span class="ref">关联：旧巷照相馆</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#c084fc">赤</span><b>赤霄观战人</b><time>11-23</time></div><p>四强战抽到同门师兄这个安排有点意料之中，不过前面几场战斗分镜确实稳，继续追。</p><span class="ref">关联：赤霄问道录</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#22d3ee">星</span><b>星海拾荒</b><time>11-22</time></div><p>星海拾荒者前八话设定铺得不错，冷色调画风很配拾荒题材，就是更新太慢了点。</p><span class="ref">关联：星海拾荒者</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#8b5cf6">槐</span><b>槐序十七</b><time>11-22</time></div><p>古槐记第 54 话那个反转其实前面有暗示，人物关系图更新后一看就明白了，权谋线写得很细。</p><span class="ref">关联：古槐记</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#f472b6">周</span><b>周三摸鱼中</b><time>11-21</time></div><p>周三不加班拿来午休看正合适，一话一个笑点，不用记剧情，140 话随便翻哪话都能读。</p><span class="ref">关联：周三不加班</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#fbbf24">站</span><b>站台候车人</b><time>11-20</time></div><p>第七号站台番外补了管理人视角，看完正篇再看番外，整个世界观就完整了，推荐这个顺序。</p><span class="ref">关联：第七号站台</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#34d399">青</span><b>青柠汽水</b><time>11-19</time></div><p>悬疑线还是得按顺序看，雾港档案我一开始跳着读，结果第 10 话完全没看懂，回头补了前面。</p><span class="ref">关联：雾港档案</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#8b5cf6">夜</span><b>夜读三更</b><time>11-18</time></div><p>玄幻线普遍偏长，九霄剑主我从第 60 话分卷起点开始追的，压力小很多，推荐新读者这么入。</p><span class="ref">关联：九霄剑主</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#22d3ee">画</span><b>画格收集者</b><time>11-17</time></div><p>夏日回声的早期和最新话对比了一下，人物比例基本没变，这种画风一致性在双周更作品里不多见。</p><span class="ref">关联：夏日回声</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#f472b6">慢</span><b>慢读计划</b><time>11-16</time></div><p>月更作品攒两话一起看体验更好，万灵归墟单话信息量太大，一次看一话容易漏设定。</p><span class="ref">关联：万灵归墟</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#fbbf24">评</span><b>评分保守派</b><time>11-15</time></div><p>8 分左右的新作其实可以看看，星海拾荒者设定挺新，就是前几话节奏慢，需要点耐心。</p><span class="ref">关联：星海拾荒者</span></div>
+          <div class="comment"><div class="comment-top"><span class="avatar" style="background:#34d399">完</span><b>完结收集癖</b><time>11-14</time></div><p>完结精选里这两部都不错，旧巷照相馆偏治愈，第七号站台偏生存，看心情挑一部就行。</p><span class="ref">关联：完结精选</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="news">
+        <div class="section-head">
+          <h2>相关资讯</h2>
+          <span class="sub">平台与类型动态</span>
+        </div>
+        <div class="news-list">
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/yaojing-news01/600/400" width="600" height="400" loading="lazy" alt="九霄剑主剑冢篇专题资讯配图">
+            <div class="news-body">
+              <h3><a href="/#news">《九霄剑主》剑冢篇收官，第 92 话回收四十话前伏笔</a></h3>
+              <time>2026-11-25</time>
+              <p>剑冢封印线正式收束，作者在章节尾页说明下一卷将转入宗门重建主线。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/yaojing-news02/600/400" width="600" height="400" loading="lazy" alt="雾港档案单元案件完结资讯配图">
+            <div class="news-body">
+              <h3><a href="/#news">《雾港档案》首个单元案件完结，第二案将于 12 月初开启</a></h3>
+              <time>2026-11-24</time>
+              <p>灯塔失踪案共 12 话，第二案「旧码头账本」已放出预告页，仍维持周更节奏。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/yaojing-news03/600/400" width="600" height="400" loading="lazy" alt="11月新上架条漫数据资讯配图">
+            <div class="news-body">
+              <h3><a href="/#news">11 月新上架条漫统计：轻科幻与单元悬疑占比上升</a></h3>
+              <time>2026-11-22</time>
+              <p>本月新开作品中，科幻末世与悬疑推理合计占比接近三成，高于上月水平。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/yaojing-news04/600/400" width="600" height="400" loading="lazy" alt="完结作品电子合集上架资讯配图">
+            <div class="news-body">
+              <h3><a href="/#news">《旧巷照相馆》电子合集上架，新增作者后记与分镜草图</a></h3>
+              <time>2026-11-20</time>
+              <p>全 24 话合并为三卷，收录原连载时未公开的分镜草图页与作者创作后记。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/yaojing-news05/600/400" width="600" height="400" loading="lazy" alt="古槐记人物关系图更新资讯配图">
+            <div class="news-body">
+              <h3><a href="/#news">《古槐记》第 54 话后人物关系图更新，三配角立场调整</a></h3>
+              <time>2026-11-19</time>
+              <p>卷末附页同步更新关系图，标注了三处立场变化，便于读者回顾朝局线。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/yaojing-news06/600/400" width="600" height="400" loading="lazy" alt="追更榜单规则调整资讯配图">
+            <div class="news-body">
+              <h3><a href="/#news">追更榜单计分规则调整，更新连续性权重上调</a></h3>
+              <time>2026-11-16</time>
+              <p>新规则将更新连续性权重提高，长期断更作品的榜单排名将相应下调。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="related">
+        <div class="section-head">
+          <h2>相关推荐方向</h2>
+          <span class="sub">延伸阅读与相近类型</span>
+        </div>
+        <div class="reco-tags">
+          <a href="/#picks"><b>玄幻</b>宗门流长篇</a>
+          <a href="/#picks"><b>悬疑</b>单元案件结构</a>
+          <a href="/#picks"><b>校园</b>毕业季群像</a>
+          <a href="/#picks"><b>日常</b>治愈系短篇</a>
+          <a href="/#picks"><b>古风</b>宫产权谋线</a>
+          <a href="/#picks"><b>科幻</b>末世群像生存</a>
+          <a href="/#picks"><b>四格</b>职场独立笑点</a>
+          <a href="/#picks"><b>完结</b>3 小时可读完合集</a>
+        </div>
+      </section>
+
+      <section class="section" id="board">
+        <div class="section-head">
+          <h2>追更榜单</h2>
+          <span class="sub">2026-11-25 刷新</span>
+        </div>
+        <div class="board-panel">
+          <div class="board-grid">
+            <div class="board-col">
+              <h4>本周追更热度 TOP 5</h4>
+              <ol>
+                <li><b>九霄剑主</b><em>9.1 分</em></li>
+                <li><b>夏日回声</b><em>8.9 分</em></li>
+                <li><b>雾港档案</b><em>8.7 分</em></li>
+                <li><b>万灵归墟</b><em>8.8 分</em></li>
+                <li><b>赤霄问道录</b><em>8.6 分</em></li>
+              </ol>
+            </div>
+            <div class="board-col">
+              <h4>完结作品口碑 TOP 5</h4>
+              <ol>
+                <li><b>旧巷照相馆</b><em>9.2 分</em></li>
+                <li><b>第七号站台</b><em>8.9 分</em></li>
+                <li><b>雾中邮差</b><em>8.8 分</em></li>
+                <li><b>春分之后</b><em>8.7 分</em></li>
+                <li><b>北岸旧事</b><em>8.6 分</em></li>
+              </ol>
+            </div>
+            <div class="board-col">
+              <h4>11 月新作关注度</h4>
+              <ol>
+                <li><b>雾港档案</b><em>12 话</em></li>
+                <li><b>星海拾荒者</b><em>8 话</em></li>
+                <li><b>纸鸢与铁轨</b><em>6 话</em></li>
+                <li><b>雨季修理铺</b><em>5 话</em></li>
+                <li><b>夜行电车</b><em>4 话</em></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 右辅助栏 -->
+    <aside class="col-right" aria-label="辅助信息">
+      <div class="side-box">
+        <h2>今日更新速览</h2>
+        <ul class="update-mini">
+          <li><time>09:30</time><span>九霄剑主 第 92 话</span></li>
+          <li><time>08:10</time><span>夏日回声 第 31 话</span></li>
+          <li><time>昨天</time><span>雾港档案 第 12 话</span></li>
+          <li><time>昨天</time><span>赤霄问道录 第 76 话</span></li>
+          <li><time>11-23</time><span>星海拾荒者 第 8 话</span></li>
+          <li><time>11-22</time><span>万灵归墟 第 118 话</span></li>
+        </ul>
+      </div>
+      <div class="side-box">
+        <h2>热度排行</h2>
+        <ol class="rank-list">
+          <li><a href="/#picks">九霄剑主</a><em>9.1</em></li>
+          <li><a href="/#picks">夏日回声</a><em>8.9</em></li>
+          <li><a href="/#picks">旧巷照相馆</a><em>9.2</em></li>
+          <li><a href="/#picks">万灵归墟</a><em>8.8</em></li>
+          <li><a href="/#picks">雾港档案</a><em>8.7</em></li>
+          <li><a href="/#picks">赤霄问道录</a><em>8.6</em></li>
+          <li><a href="/#picks">第七号站台</a><em>8.9</em></li>
+        </ol>
+      </div>
+      <div class="side-box">
+        <h2>快捷入口</h2>
+        <ul class="channel-list">
+          <li><a href="/#updates">更新动态</a></li>
+          <li><a href="/#categories">分类筛选</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#board">追更榜单</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="/#top">
+          <svg class="logo-mark" viewBox="0 0 40 40" role="img" aria-label="妖精动漫51漫画标识">
+            <path d="M20 3 L34 10.5 V26 L20 36 L6 26 V10.5 Z" fill="none" stroke="#8b5cf6" stroke-width="2.2"/>
+            <circle cx="16.6" cy="14.6" r="1.5" fill="#c084fc"/>
+            <circle cx="23.4" cy="14.6" r="1.5" fill="#c084fc"/>
+            <path d="M15 23c2 2.4 8 2.4 10 0" stroke="#22d3ee" stroke-width="2" fill="none" stroke-linecap="round"/>
+          </svg>
+          <span class="logo-text">妖精动漫<em>51漫画</em></span>
+        </a>
+        <p>以玄幻、校园、悬疑、日常恋爱四条主线为主的在线漫画阅读站，提供分类筛选、更新记录与读者评论。</p>
+      </div>
+      <div class="footer-col">
+        <h4>内容频道</h4>
+        <ul>
+          <li><a href="/#overview">平台概览</a></li>
+          <li><a href="/#picks">精选推荐</a></li>
+          <li><a href="/#updates">更新动态</a></li>
+          <li><a href="/#categories">类型分类</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>阅读参考</h4>
+        <ul>
+          <li><a href="/#insight">深度解析</a></li>
+          <li><a href="/#guide">阅读路径</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#board">追更榜单</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>数据说明</h4>
+        <p class="footer-note">站内作品数、更新话数、评分与榜单数据为编辑整理与示例条目，统计时间截至 2026-11-25。作品名称、更新日期与评分为示意信息，具体以实际连载情况为准。</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 妖精动漫51漫画 · 内容示例站点</span>
+      <span>更新统计截至 2026-11-25 · 榜单每日刷新</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var menuBtn = document.getElementById('menuBtn');
+  var navMain = document.getElementById('navMain');
+  if(menuBtn && navMain){
+    menuBtn.addEventListener('click', function(){
+      var open = navMain.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    navMain.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.innerWidth <= 860){
+        navMain.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  var input = document.getElementById('siteSearch');
+  var btn = document.getElementById('searchBtn');
+  var hint = document.getElementById('searchHint');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#cardGrid .card'));
+
+  function doSearch(){
+    if(!input || !hint) return;
+    var q = (input.value || '').trim().toLowerCase();
+    if(!q){
+      hint.classList.remove('show');
+      cards.forEach(function(c){ c.style.display = ''; });
+      return;
+    }
+    var matched = [];
+    cards.forEach(function(c){
+      var name = (c.getAttribute('data-name') || '').toLowerCase();
+      var cat = (c.getAttribute('data-cat') || '').toLowerCase();
+      var text = c.textContent.toLowerCase();
+      var hit = name.indexOf(q) > -1 || cat.indexOf(q) > -1 || text.indexOf(q) > -1;
+      c.style.display = hit ? '' : 'none';
+      if(hit) matched.push(c.getAttribute('data-name'));
+    });
+    hint.classList.add('show');
+    if(matched.length === 0){
+      hint.textContent = '未找到与「' + input.value.trim() + '」匹配的作品，可尝试玄幻、悬疑、校园、完结等类型词。';
+      cards.forEach(function(c){ c.style.display = ''; });
+    }else{
+      hint.textContent = '找到 ' + matched.length + ' 部作品：' + matched.slice(0,5).join('、') + (matched.length > 5 ? ' 等' : '') + '。';
+    }
+  }
+
+  if(btn) btn.addEventListener('click', doSearch);
+  if(input){
+    input.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){ e.preventDefault(); doSearch(); }
+    });
+    input.addEventListener('input', function(){
+      if(!input.value.trim()){
+        if(hint) hint.classList.remove('show');
+        cards.forEach(function(c){ c.style.display = ''; });
+      }
+    });
+  }
+})();
+</script>
+</body>
+                </html>
